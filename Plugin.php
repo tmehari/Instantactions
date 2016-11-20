@@ -33,7 +33,7 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://github.com/Alokaado/instant_remove';
+        return 'https://github.com/Alokaado/Instantactions';
     }
 }
 ?>
