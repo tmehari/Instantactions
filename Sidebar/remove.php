@@ -1,7 +1,4 @@
 <div class="sidebar sidebar-icons">
-    <div class="sidebar-title">
-        <h2>Task #1</h2>
-		</div>  
 		<div class="sidebar-title">
         <h2>Actions</h2>
     </div>
