@@ -1,7 +1,7 @@
-Instant Remove plugin
+Instant Actions on Task plugin
 =====================
 
-This plugin for kanboard adds an instant actions (remove, edit, open/close)
+This plugin for kanboard adds instant actions on tasks (remove, edit, open/close)
 
 Installation
 ------------
