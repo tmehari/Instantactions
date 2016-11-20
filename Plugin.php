@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\InstantRemove;
+namespace Kanboard\Plugin\Instantactions;
 
 use Kanboard\Core\Plugin\Base;
 
@@ -8,22 +8,22 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->template->hook->attach("template:dashboard:sidebar",'InstantRemove:Sidebar/remove' );
+        $this->template->hook->attach('template:board:task:footer', 'Instantactions:layout/footer');
     }
 
     public function getPluginName()
     {
-        return 'InstantRemove';
+        return 'Instantactions';
     }
 
     public function getPluginDescription()
     {
-        return t('This plugin makes it possible to remove tasks instantly');
+        return t('This plugin adds instant actions to tasks in the board view.');
     }
 
     public function getPluginAuthor()
     {
-        return 'Mehari';
+        return 'Mehari, Reith';
     }
 
     public function getPluginVersion()
@@ -36,3 +36,4 @@ class Plugin extends Base
         return 'https://github.com/Alokaado/instant_remove';
     }
 }
+?>
